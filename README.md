@@ -49,7 +49,9 @@ git commit -m 'note message'
 git push origin <branch name>
 ```
 
-file `google-services.json` sẽ bị ẩn hoàn toàn khỏi reppo kể cả trên máy hoặc repo
+file `google-services.json` sẽ bị ẩn hoàn toàn khỏi repo kể cả trên máy local và trên Github
+
+### Dùng cách như trên, nó sẽ hide cả file trên cả repo local, tốt nhất là tạo 1 file mẫu để khi ai clone về thì tự set file `google-services.json` của mình vào `android/app/`
 
 ## Set/Get data Firebase
 
