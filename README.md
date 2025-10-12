@@ -33,6 +33,24 @@ Trong các file.dart thành phần muốn kết nối với firebase, thực hi�
 import 'package:firebase_database/firebase_database.dart';
 ```
 
+## Ẩn file google-services.json để không lộ key secret
+
+Nếu chưa từng `git add` vào repo, chỉ cần thêm lệnh
+
+```dart
+/android/app/google-services.json
+```
+
+vào file `.gitignore`, sau đó thực hiện các lệnh
+
+```bash
+git add .
+git commit -m 'note message'
+git push origin <branch name>
+```
+
+file `google-services.json` sẽ bị ẩn hoàn toàn khỏi reppo kể cả trên máy hoặc repo
+
 ## Set/Get data Firebase
 
 Ở đầu class của file.dart thành phần, dùng lệnh để chỉ rõ đường dẫn trên firebase để truy cập vào nơi lưu datadata:
