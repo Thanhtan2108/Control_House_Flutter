@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'screens/bedroom.dart'; // import class Bedroom từ file khác
-import 'screens/livingroom.dart';
-import 'screens/kitchen.dart';
+import '../rooms/bedroom.dart'; // import class Bedroom từ file khác
+import '../rooms/livingroom.dart';
+import '../rooms/kitchen.dart';
 // import 'local_auth.dart';
-import 'login.dart'; // để logout quay về màn hình login (mylogin)
+import '../login/login.dart'; // để logout quay về màn hình login (mylogin)
 
 // ------------------ Home Page ------------------
 class MyHomePage extends StatelessWidget {
